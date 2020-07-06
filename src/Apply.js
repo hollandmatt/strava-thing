@@ -67,7 +67,7 @@ class Apply extends Component {
         <div>Page {page}</div>
         <div>Updated {updated.length} activities, {skipped.length} skipped and {failed.length} failed.</div>
         <div>
-          <button disabled={(PAGE_SIZE * page) > (updated + skipped + failed)} onClick={this.nextPage}>Next Page</button>
+          <button disabled={(PAGE_SIZE * page) > (updated.length + skipped.length + failed.length)} onClick={this.nextPage}>Next Page</button>
         </div>
       </div>
     )

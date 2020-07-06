@@ -8,7 +8,7 @@ Strava provides no way to bulk update activities in its UI, so I created this to
 
 # How to use it
 
-First you'll need to [create a Strava app](https://www.strava.com/settings/api) - note down the Client ID and Client Secret. These must be populate in the `REACT_APP_CLIENT_ID` and `REACT_APP_CLIENT_SECRET` environment variables (You can to this by creating a `.env.local` file).
+First you'll need to [create a Strava app](https://www.strava.com/settings/api) - note down the Client ID and Client Secret. These must be populated in the `REACT_APP_CLIENT_ID` and `REACT_APP_CLIENT_SECRET` environment variables (You can to this by creating a `.env.local` file).
 
 Next, install dependencies (I'm assuming you have Node.js and NPM installed):
 
